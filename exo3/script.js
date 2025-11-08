@@ -11,7 +11,7 @@ const students = [
 //Ici on déclare des fonctions, vu en cours dans le slide 45
 function A() {
     for (let student of students) {
-        const moyenne = (student.note1 + student.note2) / 2 + 5; //Addition et division vu dans le slide 41 
+        const moyenne = (student.note1 + student.note2) / 2 + 5; //Addition et division vu dans le slide 41
         let status; //Ici on déclare une variable vu dans le slide 51
         //Ici on utilise les conditions vu dans le slide 42
         if (B(moyenne)) {
